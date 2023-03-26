@@ -3,14 +3,18 @@ package stepdefinitions;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.Dimension;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class US03_driverManageMethodsSteps {
 
     Driver driver = new Driver();
 
+
     @When("driver manage maximize methodu kullanılarak sayfa maximize edilir")
     public void driver_manage_maximize_methodu_kullanılarak_sayfa_maximize_edilir() {
         driver.getDriver().manage().window().maximize();
+
+
     }
     @When("console a drive manage maximize methodu  kullanıldı yazdırılır.")
     public void console_a_drive_manage_maximize_methodu_kullanıldı_yazdırılır() {
