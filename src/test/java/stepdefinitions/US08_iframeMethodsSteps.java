@@ -5,7 +5,7 @@ import org.junit.Assert;
 import pages.IframePage;
 import utilities.Driver;
 
-public class US08_IframeMethodsSteps {
+public class US08_iframeMethodsSteps {
 
     Driver driver = new Driver();
     IframePage iframePage = new IframePage();
